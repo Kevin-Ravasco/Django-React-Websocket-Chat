@@ -315,6 +315,9 @@ small {
   margin-top: 10px;
 }
 
+.auth-container p {
+  font-size: 12px;
+}
 .auth-container .card {
   display: block;
   width: 30%;

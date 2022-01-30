@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { axiosInstance } from "../utils/axios";
 
 export default function LoginPage() {
@@ -74,6 +75,9 @@ export default function LoginPage() {
                 </div>
                 <button className="btn btn-primary w-100">Login</button>
               </form>
+              <p className="text-center">
+                <Link to="/signup/">Dont have an account? Sign Up Here</Link>
+              </p>
             </div>
           </div>
         </div>
